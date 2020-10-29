@@ -1,0 +1,22 @@
+{
+  "name": "googlecalendarapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DualStream799/GoogleCalendarAPI.git"
+  },
+  "author": "DualStream799",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DualStream799/GoogleCalendarAPI/issues"
+  },
+  "homepage": "https://github.com/DualStream799/GoogleCalendarAPI#readme",
+  "dependencies": {
+    "googleapis": "^62.0.0"
+  }
+}
