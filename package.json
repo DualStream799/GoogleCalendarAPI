@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js",
+    "stop": "npx kill-port 3000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,19 @@
   },
   "homepage": "https://github.com/DualStream799/GoogleCalendarAPI#readme",
   "dependencies": {
-    "googleapis": "^62.0.0"
+    "@sendgrid/mail": "^7.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "googleapis": "^62.0.0",
+    "guid": "0.0.12",
+    "http": "0.0.1-security",
+    "md5": "^2.3.0",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
