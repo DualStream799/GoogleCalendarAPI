@@ -26,7 +26,7 @@ const routeOrder = require('./routes/routeOrder');
 const routeEvent = require('./routes/routeEvent');
 
 const router = express.Router();
-mongoose.connect(config.connectionString, {
+mongoose.connect(process.env.MONGODB_CONNECTION_STRING, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
