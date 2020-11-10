@@ -1,6 +1,6 @@
 'use strict';
 
-var sgMail = require('@sendgrid/mail')
+var sgMail = require('@sendgrid/mail');
 
 sgMail.setApiKey(process.env.SENDGRID_KEY);
 
